@@ -1,4 +1,4 @@
-# docker: homebridge (with indigo plugin)
+# docker: homebridge (with lifx plugin)
 
 This is a docker image to run the [homebridge tool](https://github.com/nfarina/homebridge) with the 
 [homebridge-lifx plugin](https://www.npmjs.com/package/homebridge-lifx) enabled.
