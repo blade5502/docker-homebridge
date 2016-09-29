@@ -13,8 +13,7 @@ RUN apt-get -q update && \
   apt-get -q clean && \
   rm -rf /var/lib/apt/lists/*
 
-RUN npm -g install npm@latest-2 && \
-  npm install -g homebridge && \
+RUN npm install -g homebridge && \
   npm install -g homebridge-lifx && \
   mkdir -p /config
 
