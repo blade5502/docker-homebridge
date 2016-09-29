@@ -18,6 +18,7 @@ RUN npm -g install npm@latest-2 && \
   npm install -g homebridge-lifx && \
   mkdir -p /config
 
+COPY config.json /config/config.json
 COPY run.sh /run.sh
 
 RUN chmod +x /run.sh && mkdir -p /var/run/dbus
