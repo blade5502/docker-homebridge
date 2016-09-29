@@ -10,11 +10,11 @@ RUN apt-get -q update && \
     git \
     nodejs \
     libavahi-compat-libdnssd-dev && \
+  apt-get install -qy --force-yes nodejs && \
   apt-get -q clean && \
   rm -rf /var/lib/apt/lists/*
 
-RUN npm -g install npm@latest-2 && \
-  npm install -g homebridge && \
+RUN npm install -g homebridge && \
   npm install -g homebridge-lifx && \
   mkdir -p /config
 
