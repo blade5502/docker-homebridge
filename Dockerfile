@@ -15,9 +15,8 @@ RUN apt-get -q update && \
 
 RUN npm -g install npm@latest-2 && \
   npm install -g homebridge && \
-  npm install -g homebridge-indigo && \
-  mkdir -p /config && \
-  cp /usr/lib/node_modules/homebridge-indigo/sampleconfig.json /config/config.json
+  npm install -g homebridge-lifx && \
+  mkdir -p /config
 
 COPY run.sh /run.sh
 
