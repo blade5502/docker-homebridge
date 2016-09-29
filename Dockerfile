@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM debian:latest
 
 # Install Supporting Packages
 RUN apt-get -q update && \
