@@ -3,7 +3,7 @@
         "name": "Homebridge-LIFx",
         "username": "CD:22:3D:E3:CE:30",
         "port": 51826,
-        "pin": "111-222-333"
+        "pin": "111-22-333"
     },
 
     "description": "This is an example configuration file for homebridge with LIFx plugin. Please enter your LIFx access token",
